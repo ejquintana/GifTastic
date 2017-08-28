@@ -26,7 +26,7 @@ function createButtons(){
    $('.showBtn').on('click', function(){
 		$('.showGifs').empty();
 		var thisShow = $(this).data('name');
-		var giphyURL = "http://api.giphy.com/v1/gifs/search?q=tv+show+" + thisShow + "&limit=10&api_key=dc6zaTOxFJmzC";
+		var giphyURL = "https://api.giphy.com/v1/gifs/search?q=tv+show+" + thisShow + "&limit=10&api_key=dc6zaTOxFJmzC";
 //Calls the Giphy API and pulls in the Giphys
    $.ajax({
 	 url: giphyURL, 
