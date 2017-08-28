@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GIFY</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <link href="assets/css/reset.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+<!-- Header -->
+ <div class='container'>
+  <div class = 'jumbotron'>
+   <h5 class ="display-4">Welcome to the Giphy Zone</h5>
+  </div>
+<!-- User Interaction Panel -->
+    <div class='col-md-3'>
+     <div class="panel panel-primary">
+      <div class="panel-heading">
+         <h3 class="panel-title" class='text-align: center'>Create Your Own Button</h3>
+      </div>
+        <form>
+            <label>Add your favorite TV show</label>
+            <input type='text' id='newGify' />
+            <button type='submit' class = "btn btn-success" id='addShow' >Submit</button>
+        </form>
+      </div>
+   </div>
+    <!--  Pre-loaded/New Button Panel -->
+   <div class= 'col-md-9'>
+     <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title" class='text-align: center'>For Hilarity and Hijinks, Click a Button</h3>
+        </div>
+        <div class="panel-body" id = 'showButtons'></div>
+      </div>
+    </div>
+<!-- Gify Panel -Populate Gify's on Click -->
+  <div class='col-md-12'>
+    <div class='showGifs'></div>
+ </div>
+</div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+body {
+    background: url(https://media.giphy.com/media/3oKIPiGuhpBD1c7CUM/source.gif);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+
+h1, h3, p{
+text-align: center;
+color: green;
+}
+
+.jumbotron{
+opacity: .7;
+text-align: center;
+}
+
+.display-4{
+ color: black;
+ font-size: 30px;
+ border-radius: solid 20px; 
+ text-align: center;
+}
+
+img {
+    height: 150px;
+}
+
+form {
+    padding: 10px;
+}
+
+.ratingStyle {
+    color: white;
+    background-color: #404040;
+    font-style: italic;
+    border-radius: 25px;
+}
+.panel{
+   background-color: #787878;
+   box-shadow: 10px 10px 5px #888888;
+   border-radius: 25px;
+}
+
+#addShow {
+    color: white;
+    border: none;
+}
+
+input {
+    margin: 10px;
+}
+
+button {
+    background-color: #d9d9d9;
+    border: none;
+}
+
+.showBtn {
+    padding: 6px;
+    margin: 3px;
+    overflow: hidden;
+}
